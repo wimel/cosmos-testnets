@@ -119,8 +119,8 @@
               "value": {
                 "Description": {
                   "moniker": "Cryptium Labs",
-                  "identity": "",
-                  "website": "",
+                  "identity": "5A309B5CA189D8B3",
+                  "website": "https://cryptium.ch/",
                   "details": ""
                 },
                 "Commission": {
@@ -161,7 +161,7 @@
               "sequence": "0"
             }
           ],
-          "memo": "29cca3d3189ea2caf8ea7534d8f791f8f9d34a99@192.168.95.231:26656"
+          "memo": "5108f3b584468ac5ba939e58b5e1ad1e95585218@35.198.113.117:26656"
         }
       }
     ]
