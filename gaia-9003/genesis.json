@@ -17,7 +17,23 @@
   },
   "app_hash": "",
   "app_state": {
-    "accounts": null,
+    "accounts": [
+      {
+        "address": "cosmos1eysta0x7quczxkecrm6f36assewqddr0879wgv",
+        "coins": [
+          {
+            "denom": "STAKE",
+            "amount": "10000"
+          },
+          {
+            "denom": "photinos",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0"
+      }
+    ],
     "auth": {
       "collected_fees": null
     },
