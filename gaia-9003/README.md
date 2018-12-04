@@ -8,28 +8,9 @@ Let's collect genesis transactions in this folder.
 
 ### Step 2
 
-`gaiad gentx --home {your gaiad home dir} --name {the key to sign the tx}
+`gaiad gentx --amount 10000STAKE --home {your gaiad home dir} --name {the key to sign the tx}`
 
 The gentx json will be stored at {your gaiad home dir}/config/gentx/.
 
-### Step 3
 
-Update the amount of delegation from 100 to 10000. You should see this in the file.
-
-```
-  "delegation": {
-    "denom": "STAKE",
-    "amount": "100"
-  }
-```          
-
-Change it to 
-
-```
-  "delegation": {
-    "denom": "STAKE",
-    "amount": "10000"
-  }
-```  
-
-Save it and submit this file by making a pull request.
+Submit this file by making a pull request.
