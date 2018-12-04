@@ -1,0 +1,54 @@
+{
+  "type": "auth/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type": "cosmos-sdk/MsgCreateValidator",
+        "value": {
+          "Description": {
+            "moniker": "bharvest",
+            "identity": "",
+            "website": "",
+            "details": ""
+          },
+          "Commission": {
+            "rate": "1.0000000000",
+            "max_rate": "1.0000000000",
+            "max_change_rate": "1.0000000000"
+          },
+          "delegator_address": "cosmos1j56qtep6e7j27ct3m0qp2fkwtwsutxkt37exl3",
+          "validator_address": "cosmosvaloper1j56qtep6e7j27ct3m0qp2fkwtwsutxkt52dnnz",
+          "pubkey": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "9DMdeXoPFHYTjjn5BEXSp6tYxeh9TIauCJKxTRplBgw="
+          },
+          "delegation": {
+            "denom": "STAKE",
+            "amount": "10000"
+          }
+        }
+      }
+    ],
+    "fee": {
+      "amount": [
+        {
+          "denom": "",
+          "amount": "0"
+        }
+      ],
+      "gas": "200000"
+    },
+    "signatures": [
+      {
+        "pub_key": {
+          "type": "tendermint/PubKeySecp256k1",
+          "value": "A24uDgg+ctUV+aLzthmlqo+f0OIDrGM6UvGkxq9NVFUP"
+        },
+        "signature": "Kq4gU1iy+l787GKGV45MRWf8VbPJszPjz3fIjOA23PccJA71Ocn3Whq3FqZllD3sL8iftgvtyAcLbPRYRdTnjw==",
+        "account_number": "0",
+        "sequence": "0"
+      }
+    ],
+    "memo": "let's go gaia-9003!!!"
+  }
+}
