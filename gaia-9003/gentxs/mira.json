@@ -1,1 +1,54 @@
-{"type":"auth/StdTx","value":{"msg":[{"type":"cosmos-sdk/MsgCreateValidator","value":{"Description":{"moniker":"trusted-validator","identity":"","website":"","details":""},"Commission":{"rate":"1.0000000000","max_rate":"1.0000000000","max_change_rate":"1.0000000000"},"delegator_address":"cosmos1r4lzzzf683ec70fxfd9a3jmczxxkdxpf607x77","validator_address":"cosmosvaloper1r4lzzzf683ec70fxfd9a3jmczxxkdxpflm2njd","pubkey":{"type":"tendermint/PubKeyEd25519","value":"FSj9jMpCOdWfX0rCQ0TpnEa8/uOroQl4V4Bk3Msck3w="},"delegation":{"denom":"STAKE","amount":"10000"}}}],"fee":{"amount":[{"denom":"","amount":"0"}],"gas":"200000"},"signatures":[{"pub_key":{"type":"tendermint/PubKeySecp256k1","value":"AgdM/l7AWTsmIhqNO5HbaB/9oO7KT/5YcvfI2+e+b/tM"},"signature":"liaX3QTNi3hfJ4FnvXpextIzFDy3+Yy6pWp+u2lWfzNL55OM7eEzcYAo3r0OwkheK8bVnFxTw5mT+BcWB8Ko9A==","account_number":"0","sequence":"0"}],"memo":"fbe59b2d984e20c78c943c0ae46a251fc3e193a8@178.128.144.156:26656"}}
+{
+    "type": "auth/StdTx",
+    "value": {
+      "msg": [
+        {
+          "type": "cosmos-sdk/MsgCreateValidator",
+          "value": {
+            "Description": {
+              "moniker": "trusted-validator",
+              "identity": "",
+              "website": "",
+              "details": ""
+            },
+            "Commission": {
+              "rate": "1.0000000000",
+              "max_rate": "1.0000000000",
+              "max_change_rate": "1.0000000000"
+            },
+            "delegator_address": "cosmos1r4lzzzf683ec70fxfd9a3jmczxxkdxpf607x77",
+            "validator_address": "cosmosvaloper1r4lzzzf683ec70fxfd9a3jmczxxkdxpflm2njd",
+            "pubkey": {
+              "type": "tendermint/PubKeyEd25519",
+              "value": "FSj9jMpCOdWfX0rCQ0TpnEa8/uOroQl4V4Bk3Msck3w="
+            },
+            "delegation": {
+              "denom": "STAKE",
+              "amount": "10000"
+            }
+          }
+        }
+      ],
+      "fee": {
+        "amount": [
+          {
+            "denom": "",
+            "amount": "0"
+          }
+        ],
+        "gas": "200000"
+      },
+      "signatures": [
+        {
+          "pub_key": {
+            "type": "tendermint/PubKeySecp256k1",
+            "value": "AgdM/l7AWTsmIhqNO5HbaB/9oO7KT/5YcvfI2+e+b/tM"
+          },
+          "signature": "liaX3QTNi3hfJ4FnvXpextIzFDy3+Yy6pWp+u2lWfzNL55OM7eEzcYAo3r0OwkheK8bVnFxTw5mT+BcWB8Ko9A==",
+          "account_number": "0",
+          "sequence": "0"
+        }
+      ],
+      "memo": "fbe59b2d984e20c78c943c0ae46a251fc3e193a8@178.128.144.156:26656"
+    }
+}
