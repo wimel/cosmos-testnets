@@ -8,7 +8,7 @@ Let's collect genesis transactions in this folder.
 
 ### Step 2
 
-`gaiad gentx --home {your gaiad home dir} --name {the key to sign the tx}
+`gaiad gentx --home {your gaiad home dir} --name {the key to sign the tx}`
 
 The gentx json will be stored at {your gaiad home dir}/config/gentx/.
 
