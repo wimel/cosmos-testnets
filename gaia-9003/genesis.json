@@ -6714,7 +6714,7 @@
         "coins": [
           {
             "denom": "STAKE",
-            "amount": "1000"
+            "amount": "15000"
           },
           {
             "denom": "photinos",
@@ -8170,21 +8170,6 @@
           {
             "denom": "STAKE",
             "amount": "1000"
-          },
-          {
-            "denom": "photinos",
-            "amount": "10000000000"
-          }
-        ],
-        "sequence_number": "0",
-        "account_number": "0"
-      },
-      {
-        "address": "cosmos1na3wr7ujdp3qdej6l5y0k4znzrkaz77tdzwwr5",
-        "coins": [
-          {
-            "denom": "STAKE",
-            "amount": "15000"
           },
           {
             "denom": "photinos",
@@ -12504,7 +12489,7 @@
         "coins": [
           {
             "denom": "STAKE",
-            "amount": "1000"
+            "amount": "15000"
           },
           {
             "denom": "photinos",
@@ -15288,60 +15273,6 @@
               "type": "cosmos-sdk/MsgCreateValidator",
               "value": {
                 "Description": {
-                  "moniker": "nuevax",
-                  "identity": "",
-                  "website": "",
-                  "details": ""
-                },
-                "Commission": {
-                  "rate": "0.1000000000",
-                  "max_rate": "0.2000000000",
-                  "max_change_rate": "0.0100000000"
-                },
-                "delegator_address": "cosmos1na3wr7ujdp3qdej6l5y0k4znzrkaz77tdzwwr5",
-                "validator_address": "cosmosvaloper1na3wr7ujdp3qdej6l5y0k4znzrkaz77tgk6m08",
-                "pubkey": {
-                  "type": "tendermint/PubKeyEd25519",
-                  "value": "jj0Y/Fy8JSJR3g+PHU6Ce0ecYwHGUVJ4bVyR7WwcyLI="
-                },
-                "delegation": {
-                  "denom": "STAKE",
-                  "amount": "10000"
-                }
-              }
-            }
-          ],
-          "fee": {
-            "amount": [
-              {
-                "denom": "",
-                "amount": "0"
-              }
-            ],
-            "gas": "200000"
-          },
-          "signatures": [
-            {
-              "pub_key": {
-                "type": "tendermint/PubKeySecp256k1",
-                "value": "AqT/57VsvRTO5vwQVu5GylE/+RRXcWZRZBr4YvBjdd9y"
-              },
-              "signature": "1aHzREIKrns+6E60DwX/hVlwCSXOqdEA7WHOh7K5rscFA5nxTwcsF+S8hblG/DPvHnW/K1V1d8oPCkDh6QaAYw==",
-              "account_number": "0",
-              "sequence": "0"
-            }
-          ],
-          "memo": "62beb49beaf2b8beb8c6f70405326a41d791e347@139.99.17.9:26656"
-        }
-      },
-      {
-        "type": "auth/StdTx",
-        "value": {
-          "msg": [
-            {
-              "type": "cosmos-sdk/MsgCreateValidator",
-              "value": {
-                "Description": {
                   "moniker": "JASON",
                   "identity": "",
                   "website": "",
@@ -15818,6 +15749,114 @@
             }
           ],
           "memo": "71eaea15fb6deaa4072c2518c22430fdae5e5d05@127.0.0.1:26656"
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "Description": {
+                  "moniker": "J",
+                  "identity": "",
+                  "website": "",
+                  "details": ""
+                },
+                "Commission": {
+                  "rate": "0.1000000000",
+                  "max_rate": "0.2000000000",
+                  "max_change_rate": "0.0100000000"
+                },
+                "delegator_address": "cosmos18hthd5mqetquhsgx43mdedlt2uvj5xagtslkrk",
+                "validator_address": "cosmosvaloper18hthd5mqetquhsgx43mdedlt2uvj5xagwytr09",
+                "pubkey": {
+                  "type": "tendermint/PubKeyEd25519",
+                  "value": "yKyzd1CDJUFRUQ02/rBD3vUwxh2ln7PzrGfH+I80X6Q="
+                },
+                "delegation": {
+                  "denom": "STAKE",
+                  "amount": "10000"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": [
+              {
+                "denom": "",
+                "amount": "0"
+              }
+            ],
+            "gas": "200000"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "A4CcCUyXL83d3JIz/0Ns6QiaqNiKpUO6GwFQIuyoD+zT"
+              },
+              "signature": "2DHyEHjtRRJtLyRxoN+ffqtzH6BJYDRHE0+tx0mJqMMb1hjwjTTiaLLtR79YEZ7Gpw8gENT7U1GASbHOQqvDWQ==",
+              "account_number": "0",
+              "sequence": "0"
+            }
+          ],
+          "memo": "3888d9eeea174cedf6fb48953410f039e87ff2ef@172.160.22.17:26656"
+        }
+      },
+      {  
+        "type":"auth/StdTx",
+        "value":{  
+           "msg":[  
+              {  
+                 "type":"cosmos-sdk/MsgCreateValidator",
+                 "value":{  
+                    "Description":{  
+                       "moniker":"bianjie",
+                       "identity":"",
+                       "website":"",
+                       "details":""
+                    },
+                    "Commission":{  
+                       "rate":"1.0000000000",
+                       "max_rate":"1.0000000000",
+                       "max_change_rate":"1.0000000000"
+                    },
+                    "delegator_address":"cosmos1shuqhpl273t96yg6nnqvyfeewj3ew3mdlgstsp",
+                    "validator_address":"cosmosvaloper1shuqhpl273t96yg6nnqvyfeewj3ew3md6uy7uj",
+                    "pubkey":{  
+                       "type":"tendermint/PubKeyEd25519",
+                       "value":"E8eyi46AU1ubaO4/UDkZ0vBYP8qwTRG3JJtbxHvNU4k="
+                    },
+                    "delegation":{  
+                       "denom":"STAKE",
+                       "amount":"10000"
+                    }
+                 }
+              }
+           ],
+           "fee":{  
+              "amount":[  
+                 {  
+                    "denom":"",
+                    "amount":"0"
+                 }
+              ],
+              "gas":"200000"
+           },
+           "signatures":[  
+              {  
+                 "pub_key":{  
+                    "type":"tendermint/PubKeySecp256k1",
+                    "value":"AvqI7dBdh4PDfDNpYP6b5dOKpy2EPiTAsw6qDjrWO9bo"
+                 },
+                 "signature":"CoVbCIkfk8mzriwAZJW6EQOu1Fh57iA3ZUB6RnHEtDEb7xD8/bl9loCHu7dvg2nkjK6gmcCGD2mDjjMOyQ2ipA==",
+                 "account_number":"0",
+                 "sequence":"0"
+              }
+           ],
+           "memo":"54ebe46c54ba2142c046f0edc634ff0aa39960c8@172.31.16.126:26656"
         }
       }
     ]
