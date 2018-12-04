@@ -1,0 +1,54 @@
+{
+  "type": "auth/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type": "cosmos-sdk/MsgCreateValidator",
+        "value": {
+          "Description": {
+            "moniker": "lunamint",
+            "identity": "",
+            "website": "",
+            "details": ""
+          },
+          "Commission": {
+            "rate": "1.0000000000",
+            "max_rate": "1.0000000000",
+            "max_change_rate": "1.0000000000"
+          },
+          "delegator_address": "cosmos164jntjfk9zs8x29mc27qansfwvjqs60g4u9scp",
+          "validator_address": "cosmosvaloper164jntjfk9zs8x29mc27qansfwvjqs60gsg395j",
+          "pubkey": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "8K3clCjVU33BTIpUhdahGmu++WxHj4NUE9krCRkk++s="
+          },
+          "delegation": {
+            "denom": "STAKE",
+            "amount": "10000"
+          }
+        }
+      }
+    ],
+    "fee": {
+      "amount": [
+        {
+          "denom": "",
+          "amount": "0"
+        }
+      ],
+      "gas": "200000"
+    },
+    "signatures": [
+      {
+        "pub_key": {
+          "type": "tendermint/PubKeySecp256k1",
+          "value": "A4kVvhEzkOPsu9OtEFwTv/pjwpdSYMFFe1vIgVIC/4K4"
+        },
+        "signature": "TfgGkMJuFHuk/TLRiYmWxRZNA5hdvYrjAa9AYAA/M0lXd6D8a3MAPWAFWK5rJC7ThjvFS3jefKwwykC8rRMMJA==",
+        "account_number": "0",
+        "sequence": "0"
+      }
+    ],
+    "memo": "gogo"
+  }
+}
